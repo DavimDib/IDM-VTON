@@ -1,0 +1,13 @@
+predict: predict.py:Predictor
+
+input_schema:
+  person_image:
+    type: file
+    description: "User selfie or model image"
+  cloth_image:
+    type: file
+    description: "Clothing product image"
+
+output_schema:
+  type: file
+  description: "Generated try-on image"
